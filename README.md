@@ -8,9 +8,7 @@ We hope this is a fun way to get into digital creativity<br>
 One of the projects in the guide includes a scrolling text display:<br>
 <img src=https://raw.githubusercontent.com/IKEAmaker/LearnPython4Devices/master/Media/Scroll.gif><br>
 <br>
-
-<br>
-If you want to build this kit, let us know.<br>
-You can come to Maker Friday at the Co-Create lab and we'll help you out.<br>
+<h3>Build This kit</h3>
+If you can come to Maker Friday at the Co-Create lab and we'll help you out.<br>
 There is a quick instruction on soldering you can check out in this video:<br>
 <a href="https://www.youtube.com/watch?v=GbWMCBHOKaM"><img src=https://raw.githubusercontent.com/IKEAmaker/LearnPython4Devices/master/Media/Solder.png></a>
