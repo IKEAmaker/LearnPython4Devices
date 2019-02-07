@@ -1,4 +1,4 @@
-#Learn to Code Python For a Device
+# Learn to Code Python For a Device
 Hej!
 
 We have put together a few kits of a tiny microcontroller, a small LED matrix and a joystick.
@@ -9,7 +9,7 @@ One of the projects in the guide includes a scrolling text display:
 
 ![The Kit](https://raw.githubusercontent.com/IKEAmaker/LearnPython4Devices/master/Media/Scroll.gif)
 
-#Build This kit
+# Build This kit
 If you can come to Maker Friday at the Co-Create lab and we'll help you out.
 There is a quick instruction on soldering you can check out in this video:
 [Soldering](https://www.youtube.com/watch?v=GbWMCBHOKaM)
