@@ -13,6 +13,6 @@ while True:
     relative_position = (relative_position + left) % 50
     absolute_position = int(relative_position) - 25
     mx.fill(0)
-    bf.text('IKEA', absolute_position, 1, 100)
+    bf.text('IKEA', absolute_position, 0, 1)
     mx.show()
     time.sleep(0.02)
