@@ -12,9 +12,9 @@ class joystick:
         self.button.direction = Direction.INPUT
         self.button.pull = Pull.UP
         
-        self.up_cal = -0.00708008
-        self.up_dir = -1
-        self.right_cal = -0.0185547
+        self.up_cal = 0
+        self.up_dir = 1
+        self.right_cal = 0
         self.right_dir = 1
         
     

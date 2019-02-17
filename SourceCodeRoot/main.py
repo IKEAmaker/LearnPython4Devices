@@ -4,7 +4,7 @@
 #                                                                               #
 #################################################################################
 
-project = 7
+project = 3
 
 #################################################################################
 #
@@ -13,7 +13,7 @@ project = 7
 
 import sys
 
-loadingSource = "/solutions"
+loadingSource = "/projects"
 sys.path.insert(0, loadingSource)
 print('loading project')
 print(project)
