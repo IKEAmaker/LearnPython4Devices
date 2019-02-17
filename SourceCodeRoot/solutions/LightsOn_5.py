@@ -2,9 +2,9 @@ import board
 import tinker_kit
 import time
 
-mx, UD, LR, push, bf = tinker_kit.setup_hardware(board)
+kit = tinker_kit.kit(board)
 
 while True:
-    mx[0,0] = not push.value
-    mx.show()
+    kit.matrix[0,0] = kit.joystick.push
+    kit.matrix.show()
     time.sleep(0.05)

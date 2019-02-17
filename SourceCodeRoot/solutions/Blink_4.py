@@ -2,12 +2,12 @@ import board
 import tinker_kit
 import time
 
-mx, UD, LR, push, bf = tinker_kit.setup_hardware(board)
+kit = tinker_kit.kit(board)
 
 while True:
-    mx[0,0] = 0
-    mx.show()
+    kit.matrix[0,0] = 0
+    kit.matrix.show()
     time.sleep(0.5)
-    mx[0,0] = 1
-    mx.show()
+    kit.matrix[0,0] = 1
+    kit.matrix.show()
     time.sleep(0.5)

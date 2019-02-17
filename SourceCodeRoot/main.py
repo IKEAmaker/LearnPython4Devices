@@ -4,7 +4,7 @@
 #                                                                               #
 #################################################################################
 
-project = 3
+project = 7
 
 #################################################################################
 #
@@ -13,7 +13,7 @@ project = 3
 
 import sys
 
-loadingSource = "/projects"
+loadingSource = "/solutions"
 sys.path.insert(0, loadingSource)
 print('loading project')
 print(project)
@@ -21,25 +21,25 @@ print(project)
 if project < 4:
     import board
     import tinker_kit
-    mx, UD, LR, push, bf = tinker_kit.setup_hardware(board)
+    kit = tinker_kit.kit(board)
 
 elif project < 5:
     import Blink_4
-    
+
 elif project < 6:
     import LightsOn_5
-    
+
 elif project < 7:
     import ScrollSomeText_6
-    
+
 elif project < 8:
     import ControlTheScroll_7
-        
+
 elif project < 9:
     import MoveTheDotAround_8
 
 elif project < 10:
     import LimitTheMovement_9
-    
+
 elif project < 11:
     import PaintSomeYellow_10
