@@ -5,7 +5,7 @@ import time
 kit = tinker_kit.kit(board)
 
 while True:
-    for i in range(15, -30, -1):
+    for i in range(20, -25, -1):
         kit.matrix.fill(0)
         kit.font.text('IKEA', i, 0, 1)
         kit.matrix.show()
