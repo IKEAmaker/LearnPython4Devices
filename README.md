@@ -5,6 +5,10 @@ We have put together a few kits of a tiny microcontroller, a small LED matrix an
 There is also a [step by step guide on how to get started with coding](https://github.com/IKEAmaker/LearnPython4Devices/raw/master/Docs/LearnToCode-CompleteGuide.pdf) with this kit.
 The target audience for this kit is 100% analog humans with zero coding experience.
 We hope this is a fun way to get into digital creativity.
+
+If you want to get an idea how this kit can be used to teach coding,
+you can check [this 6 minute video.](https://youtu.be/odnBymFynmI)
+
 One of the projects in the guide includes a scrolling text display:
 
 ![The Kit](https://raw.githubusercontent.com/IKEAmaker/LearnPython4Devices/master/Media/Scroll.gif)
