@@ -13,9 +13,9 @@ One of the projects in the guide includes a scrolling text display:
 
 ![The Kit](https://raw.githubusercontent.com/IKEAmaker/LearnPython4Devices/master/Media/Scroll.gif)
 
-# Build This kit
+# Build This Kit
 If you can come to Maker Friday at the Co-Create lab and we'll help you out.
-Most of the kit can be bought from Adafruit. We have set up a [shopping list that covers everything needed.](http://www.adafruit.com/wishlists/482690)
+Most of the kit can be bought from Adafruit. We have set up a [shopping list that covers almost everything needed.](http://www.adafruit.com/wishlists/482690) The only thing you need to add is some strips of wires.
 
 | How to build |               | 
 | ------------- |:-------------:|
