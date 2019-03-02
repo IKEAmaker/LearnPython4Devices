@@ -15,6 +15,7 @@ One of the projects in the guide includes a scrolling text display:
 
 # Build This kit
 If you can come to Maker Friday at the Co-Create lab and we'll help you out.
+Most of the kit can be bought from Adafruit. We have set up a [shopping list that covers everything needed.](http://www.adafruit.com/wishlists/482690)
 
 | How to build |               | 
 | ------------- |:-------------:|
