@@ -12,9 +12,17 @@ class joystick:
         self.button.direction = Direction.INPUT
         self.button.pull = Pull.UP
         
-        self.up_cal = 0
+        lr_sum = 0.0
+        ud_sum = 0.0
+
+        for i in range (0, 100, 1):
+            ud_sum += ((self.upDown.value / 65356)-0.5)
+            lr_sum += ((self.rightLeft.value / 65536)-0.5)
+
+        self.up_cal = lr_sum/100
+        self.right_cal = ud_sum/100
+
         self.up_dir = 1
-        self.right_cal = 0
         self.right_dir = 1
         
     
