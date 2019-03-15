@@ -105,8 +105,8 @@ class MainWindow_EXEC():
             self.ui.pushButton_reset_projects.setEnabled(False)
 
     def init_device(self):
-        self.ui.pushButton_flash_firmware.setEnabled(False)
-        if not os.path.isfile(firmware_temp_file):
+        self.ui.pushButton_init_device.setEnabled(False)
+        if not os.path.isfile(self.firmware_temp_file):
             print('downloading ..')
             urlretrieve(self.firmware_url, self.firmware_temp_file)
             print('done')
