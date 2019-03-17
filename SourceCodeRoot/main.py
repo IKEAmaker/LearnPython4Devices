@@ -19,9 +19,7 @@ print('loading project')
 print(project)
 
 if project < 4:
-    import board
-    import tinker_kit
-    kit = tinker_kit.kit(board)
+    import kit
 
 elif project < 5:
     import Blink_4

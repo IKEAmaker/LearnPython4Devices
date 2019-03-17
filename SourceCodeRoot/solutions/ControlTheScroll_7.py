@@ -1,8 +1,5 @@
-import board
-import tinker_kit
+import kit
 import time
-
-kit = tinker_kit.kit(board)
 
 relative_position = 0.0
 absolute_position = 0

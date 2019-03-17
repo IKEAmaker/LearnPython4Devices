@@ -1,8 +1,5 @@
-import board
-import tinker_kit
+import kit
 import time
-
-kit = tinker_kit.kit(board)
 
 while True:
     for i in range(20, -25, -1):
