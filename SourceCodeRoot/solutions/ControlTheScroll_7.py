@@ -10,7 +10,6 @@ while True:
     speed = kit.joystick.right
     relative_position = (relative_position + speed) % 45
     absolute_position = int(relative_position) - 25
-    print(absolute_position)
     kit.matrix.fill(0)
     kit.matrix.text('IKEA', absolute_position, 0, 1)
     kit.matrix.show()

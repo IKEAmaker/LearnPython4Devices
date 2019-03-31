@@ -10,15 +10,13 @@ class Joystick:
             self.button = digitalio.DigitalInOut(board.A0)
             self.upDown = AnalogIn(board.A3)
             self.rightLeft = AnalogIn(board.A4)
-            self.up_dir = -1
-            self.right_dir = -1
         elif type == 'spi':
             self.button = digitalio.DigitalInOut(board.A3)
             self.upDown = AnalogIn(board.A4)
             self.rightLeft = AnalogIn(board.A5)
-            self.up_dir = 1
-            self.right_dir = 1
             
+        self.up_dir = 1
+        self.right_dir = 1
         self.button.direction = digitalio.Direction.INPUT
         self.button.pull = digitalio.Pull.UP
         
