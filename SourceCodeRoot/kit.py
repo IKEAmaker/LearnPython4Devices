@@ -6,12 +6,18 @@ from analogio import AnalogIn
 
 class Joystick:
     def __init__(self, board):
-        self.upDown = AnalogIn(board.A3)
-        self.rightLeft = AnalogIn(board.A4)
         if type == 'i2c':
             self.button = digitalio.DigitalInOut(board.A0)
+            self.upDown = AnalogIn(board.A3)
+            self.rightLeft = AnalogIn(board.A4)
+            self.up_dir = -1
+            self.right_dir = -1
         elif type == 'spi':
-            self.button = digitalio.DigitalInOut(board.A2)
+            self.button = digitalio.DigitalInOut(board.A3)
+            self.upDown = AnalogIn(board.A4)
+            self.rightLeft = AnalogIn(board.A5)
+            self.up_dir = 1
+            self.right_dir = 1
             
         self.button.direction = digitalio.Direction.INPUT
         self.button.pull = digitalio.Pull.UP
@@ -24,11 +30,7 @@ class Joystick:
             right_sum += ((self.rightLeft.value / 65536)-0.5)
 
         self.up_cal = up_sum/1000
-        self.right_cal = right_sum/1000
-
-        self.up_dir = -1
-        self.right_dir = -1
-        
+        self.right_cal = right_sum/1000        
     
     def read_Up(self):
         return (((self.upDown.value/65536) - 0.5) - self.up_cal) * self.up_dir
