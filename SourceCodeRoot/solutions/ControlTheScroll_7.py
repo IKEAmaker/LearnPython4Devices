@@ -1,7 +1,7 @@
 import kit
 import time
 
-relative_position = 0.0
+relative_position = 25.0
 absolute_position = 0
 speed = 0.0
 
@@ -10,6 +10,7 @@ while True:
     speed = kit.joystick.right
     relative_position = (relative_position + speed) % 45
     absolute_position = int(relative_position) - 25
+    print(absolute_position)
     kit.matrix.fill(0)
-    kit.font.text('IKEA', absolute_position, 0, 1)
+    kit.matrix.text('IKEA', absolute_position, 0, 1)
     kit.matrix.show()
