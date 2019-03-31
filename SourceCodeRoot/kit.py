@@ -8,7 +8,11 @@ class Joystick:
     def __init__(self, board):
         self.upDown = AnalogIn(board.A3)
         self.rightLeft = AnalogIn(board.A4)
-        self.button = digitalio.DigitalInOut(board.A0)
+        if type == 'i2c':
+            self.button = digitalio.DigitalInOut(board.A0)
+        elif type == 'spi':
+            self.button = digitalio.DigitalInOut(board.A2)
+            
         self.button.direction = digitalio.Direction.INPUT
         self.button.pull = digitalio.Pull.UP
         
