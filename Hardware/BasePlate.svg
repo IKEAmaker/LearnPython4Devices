@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="44.13195"
+     inkscape:cx="-373.06105"
      inkscape:cy="317.23348"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,16 +61,7 @@
        y="30.166386"
        x="11.407154"
        id="image4526"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAAEiAQAAAAB1xeIbAAABmklEQVR4nO3ZQW7iMBTG8f+rkbqM
-pTlAj2LfoGfiSL0BOcrcIF4i2fpmYaeFsphZTJqQ2Isgwk/iE5hn+2Hi72N8+QcEXXXVVVddbV1Z
-GycgmVlM8524aq5DqCBJmsAiToCTJOle/XyuQ6jU5rjOb1cDoP0MVs51KBV+vz5uOzeQa4fq9O25
-MeRl37Grecyf/SAggcZoiAS3s3+r6Z9bcbuk4kSYnAjTfCdI0mWr6Z9b1Xn/Ncc1ekz3s3676feg
-LKZTvcCQsQhYpNjKufatas2RJidJma9yowv0mrOkqjXHGK4GONno2yt2o7aafg+qzvvLcDWCclt/
-g/K9+vlch1CjLwapHassUkxn73pPYUnV9vdhQgQBpF8yksfCVObd/1bTP7ea630dLosEjN5lI/n1
-ch1IffYxgWKSMjq/9Xq/qJrX1QnqkZZB9XBbvwD1PeZi6nsvTe2SsfDh18t1RGXmi5n5YjBIFjeS
-a4/qsY/5DoKCoJy0Vq4jqIc+JoM+S33uPYUl1UMfsz22P21Xy9VVV1111dX/VX8ApvHHRORTFPgA
-AAAASUVORK5CYII=
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAAEiAQAAAAB1xeIbAAABmklEQVR4nO3ZQW7iMBTG8f+rkbqM pTlAj2LfoGfiSL0BOcrcIF4i2fpmYaeFsphZTJqQ2Isgwk/iE5hn+2Hi72N8+QcEXXXVVVddbV1Z GycgmVlM8524aq5DqCBJmsAiToCTJOle/XyuQ6jU5rjOb1cDoP0MVs51KBV+vz5uOzeQa4fq9O25 MeRl37Grecyf/SAggcZoiAS3s3+r6Z9bcbuk4kSYnAjTfCdI0mWr6Z9b1Xn/Ncc1ekz3s3676feg LKZTvcCQsQhYpNjKufatas2RJidJma9yowv0mrOkqjXHGK4GONno2yt2o7aafg+qzvvLcDWCclt/ g/K9+vlch1CjLwapHassUkxn73pPYUnV9vdhQgQBpF8yksfCVObd/1bTP7ea630dLosEjN5lI/n1 ch1IffYxgWKSMjq/9Xq/qJrX1QnqkZZB9XBbvwD1PeZi6nsvTe2SsfDh18t1RGXmi5n5YjBIFjeS a4/qsY/5DoKCoJy0Vq4jqIc+JoM+S33uPYUl1UMfsz22P21Xy9VVV1111dX/VX8ApvHHRORTFPgA AAAASUVORK5CYII= "
        preserveAspectRatio="none"
        height="40.619564"
        width="40.619564"
